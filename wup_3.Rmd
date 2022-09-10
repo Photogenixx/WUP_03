@@ -32,7 +32,9 @@ The median shows that 5 drinks is the amount of alchol consumed by those who sat
 
 
 ## Numerical Summarys 
-
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
 ## Inferential Tests
 
 ## Conclusions
