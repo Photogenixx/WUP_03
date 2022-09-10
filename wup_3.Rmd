@@ -28,12 +28,8 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
-  
-### get fancy  
+The median shows that 5 drinks is the amount of alchol consumed by those who sat at the back compared to those who sat in the middle which was about3 drink and those that sat in the front which was about 1 drinks.  
 
-```{r}
-basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
-```
 
 ## Numerical Summarys 
 
