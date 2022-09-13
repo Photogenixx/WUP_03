@@ -1,7 +1,7 @@
 ---
 title: "Alcohol vs Seat choice"
 author: "Daryl Perry"
-date: "Fall 2022"
+date: "AUG 2022"
 output: html_document
 ---
 
@@ -30,23 +30,25 @@ basicCN + geom_boxplot()
   
 The median shows that 5 drinks is the amount of alchol consumed by those who sat at the back compared to those who sat in the middle which was about 3 drink and those that sat in the front which was about 1 drinks.  
 # Numerical results
-
+```{r}
+favstats(davisdata~Seat,data=davisdata)
+```
 
 
 ```{r}
 favstats(alcohol~Seat,data=davisdata)
 ```
-```
+
 
 ## Numerical Summarys 
 the data clearly shows the median for the back row is rated 4 and the median for the front is 0 and 1 for those in the middle seats
 
 ## Inferential Tests
-
 ```{r}
 model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
+
 ## Conclusions
 
 
