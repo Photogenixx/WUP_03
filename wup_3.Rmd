@@ -52,4 +52,4 @@ the inferential data provided the data with information concerning the probabili
 
 ## Conclusions
 
-
+with the return of Numerical, and Inferential, Data in the form of plots,and one way anova it is clear that there is no possible chance of the null hypothesis can be True, do to the 6 digit decimal number expressing the possibility of of change , So I reject it.
