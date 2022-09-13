@@ -39,7 +39,7 @@ favstats(alcohol~Seat,data=davisdata)
 ```
 
 ## Numerical Summarys 
-the data clearly showsthe median for the back row is rated 4 and the median for the front is 0 and 1 for those in the middle seats
+the data clearly shows the median for the back row is rated 4 and the median for the front is 0 and 1 for those in the middle seats
 
 ## Inferential Tests
 
