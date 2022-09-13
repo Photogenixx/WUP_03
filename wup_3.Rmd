@@ -41,13 +41,14 @@ favstats(alcohol~Seat,data=davisdata)
 
 
 ## Numerical Summarys 
-the data clearly shows the median for the back row is rated 4 and the median for the front is 0 and 1 for those in the middle seats
+the data clearly shows the median for the back row is rated 4 and the median for the front is 0 and 1 for those in the middle seats.Tthe mean values for the three samples are back-9.625000, Front-1.803030 Middle-3.283133
 
 ## Inferential Tests
 ```{r}
 model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
+the inferential data provided the data with information concerning the probability of p-value being 0.000116 which declares a one in 10,000 chance of there being no difference in the seating arrangement  having no influence on Alcohol Consumption
 
 ## Conclusions
 
