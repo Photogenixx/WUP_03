@@ -29,17 +29,17 @@ basicCN + geom_boxplot()
 ```
   
 The median shows that 5 drinks is the amount of alchol consumed by those who sat at the back compared to those who sat in the middle which was about 3 drink and those that sat in the front which was about 1 drinks.  
+# Numerical results
 
 
-## Numerical Summarys 
 
 ```{r}
 favstats(alcohol~Seat,data=davisdata)
 ```
 ```
 
-
-
+## Numerical Summarys 
+the data clearly showsthe median for the back row is rated 4 and the median for the front is 0 and 1 for those in the middle seats
 
 ## Inferential Tests
 
