@@ -43,6 +43,10 @@ the data clearly shows the median for the back row is rated 4 and the median for
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
 ## Conclusions
 
 
