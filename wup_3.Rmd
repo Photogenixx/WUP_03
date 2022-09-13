@@ -28,12 +28,12 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
-The median shows that 5 drinks is the amount of alchol consumed by those who sat at the back compared to those who sat in the middle which was about3 drink and those that sat in the front which was about 1 drinks.  
+The median shows that 5 drinks is the amount of alchol consumed by those who sat at the back compared to those who sat in the middle which was about 3 drink and those that sat in the front which was about 1 drinks.  
 
 
 ## Numerical Summarys 
 ```{r}
-favstats(alcohol~Seat,data=ucdavis1)
+favstats(davisdata~Sex,data=davisdata)
 ```
 ## Inferential Tests
 
